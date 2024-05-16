@@ -1,19 +1,19 @@
 A PyTorch implementation of "Conflict-Alleviated Gradient Descent for Adaptive Object Detection" (IJCAI2024)
 Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch), please setup the framework by it.
 
-#Preparation
-##Install Pytorch
+# Preparation
+## Install Pytorch
 
-##Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
+## Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
 
-##Download dataset
+## Download dataset
 
-###we use cityscape and cityscapes-foggy datasets respectly as source and target,the cityscapes dataset could be download [Here](https://www.cityscapes-dataset.com/login/)
+### we use cityscape and cityscapes-foggy datasets respectly as source and target,the cityscapes dataset could be download [Here](https://www.cityscapes-dataset.com/login/)
 
-###the format of datasets is similar with VOC,you just need to split train.txt to train_s.txt and train_t.txt
+### the format of datasets is similar with VOC,you just need to split train.txt to train_s.txt and train_t.txt
 
 
-Train and Test
+# Train and Test
 1.train the model,you need to download the pretrained model [vgg_caffe](https://github.com/jwyang/faster-rcnn.pytorch） which is different with pure pytorch pretrained model
 
 2.change the dataset root path in ./lib/model/utils/config.py and some dataset dir path in ./lib/datasets/cityscape.py,the default data path is ./data
