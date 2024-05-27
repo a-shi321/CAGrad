@@ -4,7 +4,7 @@ Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/f
 # Preparation
 ## Install Pytorch
 
-## Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
+# Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
 
 ## Download dataset
 
