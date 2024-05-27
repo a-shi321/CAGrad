@@ -4,13 +4,13 @@ Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/f
 # Preparation
 ## Install Pytorch
 
-# Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
+ Our code is conducted based on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch),please setup the framework by it.
 
 ## Download dataset
 
-### we use cityscape and cityscapes-foggy datasets respectly as source and target,the cityscapes dataset could be download [Here](https://www.cityscapes-dataset.com/login/)
+we use cityscape and cityscapes-foggy datasets respectly as source and target,the cityscapes dataset could be download [Here](https://www.cityscapes-dataset.com/login/)
 
-### the format of datasets is similar with VOC,you just need to split train.txt to train_s.txt and train_t.txt
+the format of datasets is similar with VOC,you just need to split train.txt to train_s.txt and train_t.txt
 
 
 # Train and Test
